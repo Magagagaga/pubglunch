@@ -4,13 +4,13 @@
     <meta charset="UTF-8">
     <title>Запуск PUBG Mobile</title>
     <script>
-        setTimeout(function() {
+        function openPUBG() {
             window.location.href = "pubgmobile://launch";
-        }, 1000);
+        }
     </script>
 </head>
 <body>
-    <h2>Перенаправлення у PUBG Mobile...</h2>
-    <p>Якщо гра не відкрилася, натисніть <a href="pubgmobile://launch">сюди</a>.</p>
+    <h2>Натисни, щоб відкрити PUBG Mobile</h2>
+    <p><a href="pubgmobile://launch" onclick="openPUBG()">Открыть PUBG Mobile</a></p>
 </body>
 </html>
